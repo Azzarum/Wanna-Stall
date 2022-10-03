@@ -4,14 +4,14 @@ apt-get install apache2 apache2-doc apache2-mpm-prefork apache2-utils libexpat1 
 apt-get install libapache2-mod-php5 php5 php5-common php5-curl php5-dev php5-gd php5-idn php-pear php5-imagick php5-mcrypt php5-mysql php5-ps php5-pspell php5-recode php5-xsl -y
 apt-get install mysql-server mysql-client libmysqlclient15.dev -y
 apt-get install phpmyadmin -y
-mkdir /var/www/carbonbee
-mkdir /home/$USER/carbonbee/www
-mkdir /home/$USER/carbonbee/www
-ln -s /home/$USER/carbonbee/www /var/www/carbonbee/www
-chown -hR $USER:users /home/$USER/carbonbee/www/
-chmod -R 755 /home/$USER/carbonbee/www
-chown -hR $USER:users  /var/www/carbonbee/www
-chmod -R 755 /var/www/carbonbee/www
+mkdir /var/www/web
+mkdir /home/$USER/web/www
+mkdir /home/$USER/web/www
+ln -s /home/$USER/web/www /var/www/web/www
+chown -hR $USER:users /home/$USER/web/www/
+chmod -R 755 /home/$USER/web/www
+chown -hR $USER:users  /var/www/web/www
+chmod -R 755 /var/www/web/www
 
 echo 'Installing curl' 
 sudo apt-get install curl -y
