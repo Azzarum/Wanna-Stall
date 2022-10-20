@@ -1,7 +1,6 @@
-# Bash-web-dev-install-ubuntu
-Ce github contient les commandes pour installer les outils essentiels nécessaires pour démarrer en tant que développeur Web dans le système d'exploitation Ubuntu
+This github contains the commands to install the essential tools needed to get started as a web developer in the Ubuntu operating system
 
-Je debute dans la programmation soyez indulgent s'il vous plait
+I'm new to programming, please bear with me.
 
-Remarque : En cas d'erreur, exécutez le script deux fois. Ainsi, tous les packages ainsi que les dépendances seront installés.
+Note: If there is an error, run the script twice. Thus, all the packages as well as the dependencies will be installed.
 
